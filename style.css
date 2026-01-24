@@ -1,0 +1,86 @@
+@font-face {
+    font-family: play;
+    src: url(./Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+#nav{
+    height: 120px;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+#center{
+    height: calc(100% - 120px);
+    width: 100%;
+    background-color: white;
+}
+
+#text{
+    text-align: center;
+    padding: 50px;
+}
+
+#text h4{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: play;
+    font-weight: 500;
+}
+#text h1{
+    font-size:110px;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+#text p{
+    font-size: 25px;
+    color: #777;
+    width: 37%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#text button{
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: transparent;
+    font-size: 18px;
+}
+img{
+    position: absolute;
+    height: 800px;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 9;
+}
+
+#gradient{
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to right bottom,rgb(255, 182, 48),rgb(255, 51, 133),rgb(197, 0, 197));
+    filter: blur(120px);
+    position: absolute;
+    top: 50%;
+    opacity: 0.8;
+    rotate: -3deg;
+}
