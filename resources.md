@@ -1,6 +1,15 @@
-watch this video to understand how to setup git and github - https://www.youtube.com/watch?v=yBebbcNBhRc
+units 
 
-Task - 
-static - https://cdn.prod.website-files.com/673ce2d41331913bdbf6b90d/67eac6d0b869947c7018c468_About.avif
+px - fixed 
 
-working - https://preview.webflow.com/preview/acelia?utm_medium=preview_link&utm_source=designer&utm_content=acelia&preview=ccd0d5845cf244e90d1583ada349eb3b&locale=en&pageId=67d862cdd02d4b66561d21f9&workflow=sitePreview
+% - depends on the parent
+
+em - relative to the parent (agar aapne parent ko font-size 20px diya hai to child ke liye 1em ki value hogi 20px)
+
+rem - relative to the root (1rem = 16px)
+
+
+vw - 
+vh - 
+vmax - 
+vmin - 
