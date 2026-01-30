@@ -1,4 +1,4 @@
-units 
+units in css
 
 px - fixed 
 
@@ -8,8 +8,13 @@ em - relative to the parent (agar aapne parent ko font-size 20px diya hai to chi
 
 rem - relative to the root (1rem = 16px)
 
+vw - viewport width (puri screen ki width ke respect me)
+vh - viewport height (puri screen ki height ke respect me)
+vmax - viewport maximum 
+vmin - viewport minimum 
 
-vw - 
-vh - 
-vmax - 
-vmin - 
+
+min-height : kamse kam height hogi, agar extend ho jaye to koi issue nahi hai (kam se kam 85% jyada bhi aa jaye to koi issue nahi)
+
+
+max height - jyada se jyada kitna hoga (harshita bhiaya 10k kharch karenge, us se upar gya to nahi denge paise)
