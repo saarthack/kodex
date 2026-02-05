@@ -1,20 +1,24 @@
-units in css
-
-px - fixed 
-
-% - depends on the parent
-
-em - relative to the parent (agar aapne parent ko font-size 20px diya hai to child ke liye 1em ki value hogi 20px)
-
-rem - relative to the root (1rem = 16px)
-
-vw - viewport width (puri screen ki width ke respect me)
-vh - viewport height (puri screen ki height ke respect me)
-vmax - viewport maximum 
-vmin - viewport minimum 
+- console -> log, warn, error 
+- varibales -> declaration, initialization, updataion/reinitialization
+- print variables
+- arthemetic operation (+,-,*,/,%)
+- alert, confirm, prompt
+- typeOf
 
 
-min-height : kamse kam height hogi, agar extend ho jaye to koi issue nahi hai (kam se kam 85% jyada bhi aa jaye to koi issue nahi)
+DataTypes in JS 
+
+1. Premitive 
+    - Number (10,20.56,0.565,-50)
+    - String ('a', "Hello", 'Hi I am Sarthak')
+    - Boolean (true, false)
+    - undefined (varible ke declare karne pe koi value nahi initialize ki to default value hogi undefined.)
+    - null (nothing)
+    - NaN (Not a number)
+
+2. Reference 
+    - Array 
+    - Object 
+    - Functions 
 
 
-max height - jyada se jyada kitna hoga (harshita bhiaya 10k kharch karenge, us se upar gya to nahi denge paise)
