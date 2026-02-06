@@ -21,4 +21,28 @@ DataTypes in JS
     - Object 
     - Functions 
 
+- Type Coercion
+- Type Conversion
+- Conditionals (if, else, else if)
 
+Logical Operators
+
+|| (OR Operator) + (dono me se koi ek condition bhi agar true hui to chal jana)
+
+0   0 = 0
+0   1 = 1
+1   0 = 1
+1   1 = 1
+
+|| (AND Operator) * (dono condition bhi agar true hui to chal jana)
+
+0   0 = 0
+0   1 = 0
+1   0 = 0
+1   1 = 1
+
+Loops 
+
+- while
+- do While
+- for
