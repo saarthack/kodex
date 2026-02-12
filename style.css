@@ -9,6 +9,14 @@ body {
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: black;
+    padding: 100px;
+}
 h1{
-    color: pink;
+    color: red;
+}
+
+h1:nth-child(3){
+    color: blue;
 }

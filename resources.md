@@ -24,6 +24,8 @@ DataTypes in JS
 - Type Coercion
 - Type Conversion
 - Conditionals (if, else, else if)
+- switch case statement
+- ternary operator
 
 Logical Operators
 
@@ -56,16 +58,17 @@ function a1(a) {
     console.log('hello 1',a);
     return 10
 }
+
 var a2 = function (b) {
     console.log('hello 2',b);
     return 20
-
 }
+
 var a3 = (c)=>{
     console.log('hello 3',c);
     return 30
-
 }
+
 var a4 = (d)=> console.log('hello 4',d);
 
 console.log(a1('Sarthak'));
@@ -77,7 +80,7 @@ console.log(a3('Bixi'));
 a4('Swaraj')
 
 hoisting 
-variable hoisting, funtion hoisting.  
+variable hoisting, function hoisting.  
 
 
 Arrays 
@@ -91,3 +94,57 @@ arr.shift() - starting ke element ko hatayega
 
 arr.splice()
 
+
+What is Array 
+what is Index 
+Array ke andar kya kya ho sakta hai?
+Length property
+Value read aur update kaise karte hain?
+Add aur remove ka basic tareeka
+    - push
+    - pop
+    - shift
+    - unshift
+    - splice
+Loop kaise karte hain array pe?
+High order Functions (HOF)
+    - forEach            
+    - map
+    - filter
+Reference behavior
+mutating vs non mutating
+Sort, reverse, concat, find, some, 
+Destructuring
+
+What is object
+how to create object 
+how to access object 
+kya kya ho skta hai object me?
+add/update delete 
+Object Methods 
+- Object.keys()
+- Object.values()
+- Object.entries()
+this Keyword inside Object
+Object Destructuring
+Freezing and Sealing Objects
+JSON and Objects
+
+
+String kya hoti hai?
+String create karne ke tareeke
+Length property
+Character access
+Common String Methods
+    - trim
+    - slice
+    - substring
+    - includes
+    - indexOf
+    - replace
+    - replaceAll
+    - split
+    - join
+    - toUpperCase
+    - toLowerCase
+    
