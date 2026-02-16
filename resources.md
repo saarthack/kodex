@@ -83,16 +83,6 @@ hoisting
 variable hoisting, function hoisting.  
 
 
-Arrays 
-index, you can put any datatype, length
-
-arr.push() - last me new element add karta hai 
-arr.pop() - last index ke element ko bahar karta hai 
-
-arr.unshift() - starting me element add karega
-arr.shift() - starting ke element ko hatayega
-
-arr.splice()
 
 
 What is Array 
@@ -147,4 +137,3 @@ Common String Methods
     - join
     - toUpperCase
     - toLowerCase
-    
