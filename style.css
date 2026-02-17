@@ -3,20 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'helvetica neue';
+    color: white;
+    white-space: nowrap;
 }
+
 html,
 body {
     height: 100%;
     width: 100%;
 }
-body{
+
+body {
     background-color: black;
-    padding: 100px;
-}
-h1{
-    color: red;
 }
 
-h1:nth-child(3){
-    color: blue;
+button {
+    padding: 5px 20px;
+    background-color: royalblue;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
 }
+
+button:active {
+    scale: 0.95;
+}
+
+#playground {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
