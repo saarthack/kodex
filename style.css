@@ -12,5 +12,38 @@ body {
 }
 
 body{
+    background-color: rgb(64, 64, 64);
+    padding: 40px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: black;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+}
+
+.card button{
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.card button:active{
+    scale: 0.95;
+}
+
+.card h5{
+    font-size: 20px;
+    color: rgb(255, 25, 0);
+}
+.card h3{
+    font-size: 30px;
+    font-weight: 500;
 }

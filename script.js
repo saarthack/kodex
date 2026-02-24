@@ -1,11 +1,17 @@
-var body = document.body 
+var allCards = document.querySelectorAll('.card')
 
-var audio = new Audio()
-audio.src = './faaa.mp3'
+allCards.forEach(function(elem){
 
-body.addEventListener('keydown',function(dets){
-    if(dets.code == 'Enter'){
-        audio.play()
-    }
+    elem.childNodes[5].addEventListener('click',function(){
+        if(elem.childNodes[3].innerHTML == 'Stranger'){
+            elem.childNodes[3].innerHTML = 'Friends'
+            elem.childNodes[3].style.color = 'green'
+            elem.childNodes[5].innerHTML = 'Remove Friend'
+        }else{
+            elem.childNodes[3].innerHTML = 'Stranger'
+            elem.childNodes[3].style.color = 'red'
+            elem.childNodes[5].innerHTML = 'Add Friend'
+        }
+    })
     
 })

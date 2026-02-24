@@ -1,5 +1,5 @@
 Task - 
 
-1. Virtual Piano 
-2. Music Player 
-3. MouseFollower with mouseenter and mouseleave
+1. Make something good with querySelectorAll and childNodes
+2. make a sticky navbar with wheel event
+3. make something with the combination of querySelectorAll, childNodes, mousemove
