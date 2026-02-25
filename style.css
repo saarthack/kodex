@@ -11,39 +11,109 @@ body {
     width: 100%;
 }
 
-body{
-    background-color: rgb(64, 64, 64);
-    padding: 40px;
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    padding: 30px;
+    overflow: auto;
 }
 
-.card{
+.car-card{
+    border-radius: 10px;
+    max-width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    padding: 40px 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    padding: 30px;
-    border-radius: 5px;
+    justify-content: flex-start;
+    gap: 80px;
     margin-bottom: 20px;
-    border: 2px solid white;
 }
-
-.card button{
-    background-color: palevioletred;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: 600;
+.car-card .div1{
+    position: relative;
 }
-.card button:active{
-    scale: 0.95;
-}
-
-.card h5{
-    font-size: 20px;
-    color: rgb(255, 25, 0);
-}
-.card h3{
-    font-size: 30px;
+.car-card .div1 h5{
+    color: white;
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 50px;
     font-weight: 500;
+}
+.car-card img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.car-card .div2 h2{
+    font-size: 40px;
+}
+.car-card .div2 h2 span{
+    font-size: 20px;
+}
+.car-card .div2 .colors{
+    display: flex;
+}
+.car-card .div2 .colors div{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: -4px;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+}
+.car-card .div2 .colors h6{
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.car-card .div2 .colors p{
+    margin-left:10px;
+}
+
+.car-card .div2 h3{
+    margin-bottom: 20px;
+}
+.car-card .div2 h4{
+    margin-bottom: 10px;
+}
+.car-card .div2 h5{
+    margin-bottom: 10px;
+}
+.car-card .div2>h6{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.div3 .pros{
+    font-size: 25px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.pros-p,.cons-p{
+    font-size: 13px;
+
+}
+.pros-p p{
+    font-weight: 500;
+}
+.cons-p p{
+    font-weight: 500;
+}
+.pros-p p::before{
+    content: '- ';
+}
+.cons-p p::before{
+    content: '- ';
+}
+.div3 .cons{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: red;
 }
